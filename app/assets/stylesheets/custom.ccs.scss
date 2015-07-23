@@ -1,0 +1,33 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body{
+padding-top: 15%;
+  background-image: url(/assets/background.jpg);
+}
+
+.jumbotron{
+  background-color: #2a2111;
+}
+
+.panel{
+
+  background-color: #FFFBF5;
+  float: left;
+  width: 25%;
+  
+}
+
+.content{
+  
+
+  
+  background-color: #FFFBF5;
+  float: left;
+  width: 75%;
+
+}
+
+.banner{
+  margin-right: auto;
+}
