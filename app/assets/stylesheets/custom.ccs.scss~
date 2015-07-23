@@ -5,29 +5,86 @@ body{
 padding-top: 15%;
   background-image: url(/assets/background.jpg);
 }
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
 
 .jumbotron{
   background-color: #2a2111;
+  overflow: auto;
 }
 
 .panel{
 
-  background-color: #FFFBF5;
+  border: 1px solid white;
   float: left;
-  width: 25%;
-  
+
 }
 
-.content{
-  
 
-  overflow: auto;
-  background-color: #FFFBF5;
-  float: left;
+.main_body{
+  display: flex;
+}
+#main_content{
+
   width: 75%;
-
+  position:relative;
+   overflow:hidden;
+  }
+  
+#main_panel{
+  width: 25%;
+  position:relative;
+   overflow:hidden;
 }
 
 .banner{
-  margin-right: auto;
+
+  overflow: hidden;
+  
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #FFFBF5;
+  color: #FFFBF5;
+  a {
+    color:#FFFBF5;
+    &:hover {
+      color:#FFFBF5;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+    } 
+  }
+  
+#content_button{
+
+  float: right;
+  clear:both;
+  text-size: 3em;
+  background-color: #FFFBF5;
+}
+
+#portrait{
+  height: 100px;
+  width: 100px;
 }
