@@ -2,7 +2,8 @@
 @import "bootstrap";
 	
 body{
-padding-top: 5%;
+padding-top: 2%;
+
   background-image: url(/assets/background.jpg);
 }
 h1, h2, h3, h4, h5, h6 {
