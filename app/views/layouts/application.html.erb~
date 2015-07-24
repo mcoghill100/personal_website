@@ -13,6 +13,7 @@
     <div class="container" id="main_body">
       <%= yield %>
       <%= render 'layouts/foot' %>
+      <%= render 'layouts/foot_content' %>
     </div>
   </body>
  

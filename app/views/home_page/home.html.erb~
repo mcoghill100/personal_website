@@ -1,4 +1,4 @@
-<div class="jumbotron">
+<div class="jumbotron" id="see-through">
   
   <div class = "banner">
   
@@ -7,13 +7,15 @@
   
   </div>
   
-  
+  <div class = main_body>
   <div class ="panel" id = "main_panel">
-  <%= image_tag("portrait.png", alt: "portrait", id: "portrait") %>
+  <!--<%= image_tag("portrait.png", alt: "portrait", id: "portrait") %>-->
   </div>
   
   <div class = "panel" id="main_content">
   testing2
+  <abbr title="attribute">attr</abbr>
+  </div>
   </div>
   
 </div>

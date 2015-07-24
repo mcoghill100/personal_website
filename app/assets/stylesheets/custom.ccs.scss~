@@ -1,8 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
+	
 body{
-padding-top: 15%;
+padding-top: 10%;
   background-image: url(/assets/background.jpg);
 }
 h1, h2, h3, h4, h5, h6 {
@@ -18,13 +18,16 @@ h1 {
 }
 
 .jumbotron{
-  background-color: #2a2111;
+  background-color: rgba(42,33,17, 0.7);
+  border: 15px solid transparent;
   overflow: auto;
+  -webkit-border-image: url(/assets/border.jpg) 33 stretch; /* Safari 3.1-5 */
+  -o-border-image: url(/assets/border.jpg) 33 stretch; /* Opera 11-12.1 */
+   border-image: url(/assets/border.jpg) 33 stretch;
 }
 
 .panel{
 
-  border: 1px solid white;
   float: left;
 
 }
@@ -32,18 +35,24 @@ h1 {
 
 .main_body{
   display: flex;
+  opacity: 1;
+  
 }
 #main_content{
 
   width: 75%;
   position:relative;
-   overflow:hidden;
+  overflow:hidden;
+  flex-direction: column
+   
+   
   }
   
 #main_panel{
   width: 25%;
   position:relative;
    overflow:hidden;
+   
 }
 
 .banner{
@@ -82,9 +91,16 @@ footer {
   clear:both;
   text-size: 3em;
   background-color: #FFFBF5;
+  &:hover {
+      background-color:#777;
+    }
+  border: 1px solid black;
 }
 
 #portrait{
-  height: 100px;
-  width: 100px;
+  height: auto;
+
+  
+  display: box;
 }
+
